@@ -26,7 +26,7 @@ spec:
         server: '{{ values.url }}'
       project: default
       source:
-        repoURL: https://github.com/sl1pm4t/liked-boar
+        repoURL: https://github.com/sl1pm4t/eager-pup
         targetRevision: HEAD
         path: 'apps/app-set-echo-server/{{ values.cluster }}'
         helm:
